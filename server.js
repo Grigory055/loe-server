@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3001;
 const sessionConfig = {
   name: 'reactCookies',
   store: new FileStore(),
-  secret: process.env.SESSION_SECRET ?? 'secret',
+  secret: 'secret',
   resave: false,
   saveUninitialized: false,
   cookie: {
