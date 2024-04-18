@@ -1,10 +1,6 @@
 {
   "development": {
-     "username": "kvasengt_loe",
-    "password": "ALzd4nl",
-    "database": "kvasengt_loe",
-    "host": "kvasengt.beget.tech",
-    "dialect": "postgres"
+     "use_env_variable": "DB"
   },
   "test": {
     "username": "root",
